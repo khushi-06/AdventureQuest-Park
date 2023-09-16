@@ -14,13 +14,13 @@ body {
 }
 *::selection {
   background-color: #fff;
-  color: #1e72c1;
+  color: #00BFFF;
 }
 
 body::-webkit-scrollbar {
   display: block;
   width: 8px;
-  background: #1e72c1;
+  background: #00BFFF;
 }
 body::-webkit-scrollbar-thumb {
   background-color: #fff;
@@ -33,7 +33,7 @@ body {
 #cursor {
   height: 20px;
   width: 20px;
-  background-color: #1e72c1;
+  background-color: #00BFFF;
   border-radius: 50%;
   position: fixed;
   z-index: 99;
@@ -80,9 +80,10 @@ video {
   position: fixed;
 }
 
+
 #main {
   position: relative;
-  background-color: rgba(30, 114, 193, 0.39);
+  background-color: rgba(0, 0, 0, 0.615);
 }
 
 #page1 {
@@ -107,7 +108,7 @@ video {
   color: #000;
   top: -5px;
   left: -5px;
-  -webkit-text-stroke: 1.5px #1e72c1;
+  -webkit-text-stroke: 1.5px #00BFFF;
   z-index: -1;
 }
 #page1 h2 {
@@ -125,7 +126,7 @@ video {
   height: 250px;
   width: 250px;
   background-color: transparent;
-  border: 2px solid #1e72c1;
+  border: 2px solid #00BFFF;
   position: absolute;
   display: flex;
   left: -2%;
@@ -141,7 +142,7 @@ video {
 }
 #page1 #arrow:hover {
   scale: 0.4;
-  background-color: #1e72c1;
+  background-color: #00BFFF;
 }
 #page2 {
   min-height: 100vh;
@@ -180,8 +181,8 @@ video {
   -webkit-text-stroke: 2px #ffffff;
 }
 #scroller h4:hover {
-  color: #1e72c1;
-  -webkit-text-stroke: 2px #1e72c1;
+  color: #00BFFF;
+  -webkit-text-stroke: 2px #00BFFF;
 }
 
 @keyframes scroll {
@@ -256,7 +257,7 @@ video {
 .overlay {
   height: 100%;
   width: 100%;
-  background-color: #1e72c1;
+  background-color: #00BFFF;
   padding: 30px;
   padding-top: 160px;
   opacity: 0;
@@ -326,12 +327,20 @@ video {
   height: 60px;
 }
 #page3 #colon1 {
-  left: 15%;
-  top: 25%;
+  left: 10%;
+  top: 20%;
+  width: 169px;
+  height: 186px;
 }
 #page3 #colon2 {
-  bottom: 30%;
-  right: 15%;
+  bottom: 15%;
+  right: 20%;
+  width: 169px;
+    height: 186px;
+}
+
+a {
+  text-decoration: none;
 }
 #page4 {
   height: 30vh;
@@ -353,7 +362,7 @@ video {
 .elem h2 {
   height: 100%;
   width: 100%;
-  background-color: #1e72c1;
+  background-color: #00BFFF;
   display: flex;
   color: #000;
   font-weight: 800;
@@ -405,7 +414,7 @@ video {
   z-index: 0;
 }
 #f1 img {
-  height: 100px;
+  height: 292px;
 }
 #f1,
 #f2,
@@ -415,6 +424,8 @@ video {
   position: relative;
   z-index: 99;
   /* background-color: red; */
+
+
 }
 #f2 h3 {
   font-size: 1.6vw;

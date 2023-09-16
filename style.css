@@ -62,7 +62,7 @@ body {
   z-index: 999;
 }
 #nav img {
-  height: 4.5vw;
+  height: 11.5vw;
 }
 #nav h4 {
   text-transform: uppercase;
@@ -101,9 +101,11 @@ video {
   font-size: 7.5vw;
   font-weight: 900;
   position: relative;
+  color: white;
+  opacity: 89%;
 }
 #page1 h1::before {
-  content: "EAT. DRINK. PLAY.";
+  content: "Unleash Your Inner Explorer!";
   position: absolute;
   color: #000;
   top: -5px;
@@ -195,7 +197,7 @@ video {
 }
 
 #about-us {
-  height: 40vh;
+  height: 60vh;
   width: 100%;
   /* background-color: red; */
   display: flex;
@@ -343,7 +345,7 @@ a {
   text-decoration: none;
 }
 #page4 {
-  height: 30vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   align-items: center;
